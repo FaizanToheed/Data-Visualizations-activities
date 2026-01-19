@@ -1,9 +1,8 @@
 from randomwalk import RandomWalk
 import matplotlib.pyplot as plt
-
 while True:
     rw = RandomWalk(500)
-
+    
     rw.fill_walk()
 
     plt.style.use('classic')
